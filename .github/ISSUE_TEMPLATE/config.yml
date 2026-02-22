@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/MohmmedAshraf/laravel-translations-pro-issues/tree/main/docs
+    about: Read the Laravel Translations UI Pro documentation
+  - name: Discussions
+    url: https://github.com/MohmmedAshraf/laravel-translations-pro-issues/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: Free Package Issues
+    url: https://github.com/MohmmedAshraf/laravel-translations/issues
+    about: Report issues with the free Laravel Translations UI package
