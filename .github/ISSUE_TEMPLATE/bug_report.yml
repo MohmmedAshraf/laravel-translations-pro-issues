@@ -59,6 +59,7 @@ body:
     attributes:
       label: Laravel Version
       options:
+        - 13.x
         - 12.x
         - 11.x
         - 10.x
@@ -81,6 +82,7 @@ body:
     attributes:
       label: PHP Version
       options:
+        - 8.5
         - 8.4
         - 8.3
         - 8.2
