@@ -54,27 +54,37 @@ body:
       description: If applicable, add screenshots or paste error logs to help explain the problem.
       placeholder: Paste screenshots or error logs here...
 
-  - type: input
+  - type: dropdown
     id: laravel_version
     attributes:
       label: Laravel Version
-      placeholder: e.g. 11.x
+      options:
+        - 12.x
+        - 11.x
+        - 10.x
+        - 9.x
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: package_version
     attributes:
       label: Laravel Translations UI Pro Version
-      placeholder: e.g. 1.2.3
+      options:
+        - 2.x
+        - 1.x
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: php_version
     attributes:
       label: PHP Version
-      placeholder: e.g. 8.3
+      options:
+        - 8.4
+        - 8.3
+        - 8.2
+        - 8.1
     validations:
       required: true
 
